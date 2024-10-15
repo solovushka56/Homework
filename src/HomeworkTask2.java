@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class HomeworkTask2
@@ -8,32 +6,27 @@ public class HomeworkTask2
     {
         Scanner in = new Scanner(System.in);
 
-        int n = in.nextInt();
-        int[] arr = new int[n];
+        String string = in.nextLine();
 
+        StringBuilder builder = new StringBuilder();
 
-        for (int i = 0; i < n; i++)
+        int repeatsCurrent = 1;
+        for (int i = 1; i <= string.length(); i++)
         {
-            arr[i] = in.nextInt();
-        }
 
-        Arrays.sort(arr);
-        ArrayList<Integer> uniques = new ArrayList<>();
-        for(int i = 0; i < arr.length; i++)
-        {
-            if (i == 0 || arr[i] != arr[i-1])
+            if(i < string.length() && string.charAt(i) == string.charAt(i-1))
             {
-                uniques.add(arr[i]);
+                repeatsCurrent += 1;
+
             }
+            else
+            {
+                builder.append(string.charAt(i-1));
+                builder.append(Integer.toString(repeatsCurrent));
 
+                repeatsCurrent = 1;
+            }
         }
-
-        for(int i : uniques)
-        {
-            System.out.print(" " + i);
-
-        }
-
+        System.out.println(builder.toString());
     }
-
 }
