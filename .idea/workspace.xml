@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="606de643-ff4b-4e47-82b5-e1d69b106566" name="Changes" comment="HomeworkTask5">
+    <list default="true" id="606de643-ff4b-4e47-82b5-e1d69b106566" name="Changes" comment="HomeworkTask9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729415777934</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HomeworkTask9">
+      <option name="closed" value="true" />
+      <created>1729418665443</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729418665443</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +163,7 @@
     <MESSAGE value="HomeworkTask4" />
     <MESSAGE value="HomeworkTask6" />
     <MESSAGE value="HomeworkTask5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeworkTask5" />
+    <MESSAGE value="HomeworkTask9" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeworkTask9" />
   </component>
 </project>
